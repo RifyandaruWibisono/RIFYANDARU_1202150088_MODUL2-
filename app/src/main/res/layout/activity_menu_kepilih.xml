@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lesson4.android.rifyandaru_1202150088_modul2.MenuKepilih">
+
+    <TextView
+        android:id="@+id/namaMenuMakanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+    <ImageView
+        android:id="@+id/menuImageMakanan"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/namaMenuMakanan"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/hargaMenuMakanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/menuImageMakanan"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/kompos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/hargaMenuMakanan"
+        android:layout_marginTop="10dp"
+        android:text="Komposisi"/>
+
+    <TextView
+        android:id="@+id/komposisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kompos"
+        android:layout_marginTop="10dp"
+        android:paddingHorizontal="20dp"
+        />
+
+</RelativeLayout>

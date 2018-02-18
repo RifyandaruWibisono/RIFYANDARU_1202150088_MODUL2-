@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Rifyandaru_1202150088_Modul2</string>
+    <string name="pilih_menu">Pilih Menu</string>
+    <string name="dine_in">Dine in</string>
+    <string name="take_away">Take Away</string>
+    <string name="pesan_sekarang">Pesan Sekarang</string>
+
+    <string-array name="labels_array">
+        <item>Meja 1</item>
+        <item>Meja 2</item>
+        <item>Meja 3</item>
+        <item>Meja 4</item>
+    </string-array>
+
+    <array name="images">
+        <item>@drawable/ketoprak</item>
+        <item>@drawable/kwetiau</item>
+        <item>@drawable/miegoreng</item>
+        <item>@drawable/nasigoreng</item>
+        <item>@drawable/nasikuning</item>
+        <item>@drawable/nasiuduk</item>
+        <item>@drawable/satemadura</item>
+    </array>
+
+    <string-array name="nama_menu">
+        <item>Ketoprak</item>
+        <item>Kwetiau</item>
+        <item>Mie Goreng</item>
+        <item>Nasi Goreng</item>
+        <item>Nasi Kuning</item>
+        <item>Nasi Uduk</item>
+        <item>Sate Madura</item>
+    </string-array>
+
+    <string-array name="harga_menu">
+        <item>10.000</item>
+        <item>15.000</item>
+        <item>10.000</item>
+        <item>12.000</item>
+        <item>8.000</item>
+        <item>9.000</item>
+        <item>20.000</item>
+    </string-array>
+
+    <string-array name="komposisi">
+        <item>Lontong, Bumbu Kacang</item>
+        <item>Kwetiau</item>
+        <item>Mie</item>
+        <item>Nasi, Telor</item>
+        <item>Nasi, Kunyit</item>
+        <item>Nasi</item>
+        <item>Sate</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
